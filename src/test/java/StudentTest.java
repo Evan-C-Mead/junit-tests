@@ -34,8 +34,8 @@ public class StudentTest {
 
     @Test
     public void testIfStudentHasGrade() {
-        assertTrue(student1.grades.contains(80));
-        assertFalse(student2.grades.contains(75));
+        assertTrue(student1.getGrades().contains(80));
+        assertFalse(student2.getGrades().contains(75));
     }
 
     @Test
